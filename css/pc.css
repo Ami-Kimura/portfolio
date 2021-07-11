@@ -1,0 +1,39 @@
+/*-------------------------------
+             pc.css
+--------------------------------*/
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+header {
+  height: 6rem;
+}
+
+header h2 {
+  position: absolute;
+  top: 2.3rem;
+  left: 2rem;
+  color: white;
+  width: 100% font-size: 1.5rem;
+}
+
+
+nav {
+  position: absolute;
+  top: 2.7rem;
+  right: 1rem;
+}
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li{
+    margin-right: 2rem;
+
+  }
+  nav ul li a {
+    color: white;
+  }

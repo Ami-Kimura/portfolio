@@ -1,0 +1,65 @@
+/*-------------------------------
+          mobile.css
+--------------------------------*/
+header {
+  height: 5rem;
+}
+
+header h2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navButton {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+.navButton a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+nav {
+  position: relative;
+}
+
+#nav-menu {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  background-color: #9bcaeb;
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  opacity: 0.85;
+}
+
+#nav-menu li {
+  list-style-type: none;
+  height: 3rem;
+  border-bottom: solid 1px white;
+  font-size: 80%;
+}
+
+#nav-menu li a {
+  display: block;
+  padding: 1rem 0;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+#nav-menu a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  color: white;
+}
+
+#nav-menu  a:hover {
+  background-color: #cce4f5;
+}

@@ -1,0 +1,132 @@
+/*-------------------------------
+              BASE
+--------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+/*-------------------------------
+            LAYOUT
+--------------------------------*/
+#container {
+  margin: auto;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(125,186,229,.8);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  z-index: 5;
+}
+
+/*--------------------------------
+          Main Visual
+---------------------------------*/
+.main-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.main-visual-inner {
+  padding: 0 40px;
+}
+
+.main-visual-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: dimgray;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  letter-spacing: .1em;
+}
+
+.main-visual-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  line-height: 1;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+}
+
+
+.wrap {
+  display:flex;
+  flex-flow: column;
+  border:2px #ccc solid;
+  margin:0;
+}
+
+.content-1 {
+  padding: 2rem 4rem;
+  background-color:#FFCC80;
+  margin:4rem auto;
+}
+
+.content-2 {
+  padding:2rem 4rem;
+  background-color:#FFCC80;
+  margin:4rem auto;
+}
+
+.content-3 {
+  padding:2rem 4rem;
+  background-color:#FFCC80;
+  margin:4rem auto;
+}
+
+
+.works-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgray;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+  text-align: center;
+}
+
+
+.about-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgray;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+  text-align: center;
+}
+
+
+.contact-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgray;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+  text-align: center;
+}
+
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #9bcaeb;
+  color: white;
+}
