@@ -75,62 +75,37 @@ header {
 }
 
 
-.wrap {
-  display:flex;
-  flex-flow: column;
-  border:2px #ccc solid;
-  margin:0;
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.content-1 {
-  padding: 2rem 4rem;
-  background-color:#FFCC80;
-  margin:4rem auto;
-}
-
-.content-2 {
-  padding:2rem 4rem;
-  background-color:#FFCC80;
-  margin:4rem auto;
-}
-
-.content-3 {
-  padding:2rem 4rem;
-  background-color:#FFCC80;
-  margin:4rem auto;
-}
-
-
-.works-title {
-  font-size: 30px;
-  font-weight: bold;
+h1 {
+  font-size:180%;
   color: dimgray;
-  line-height: 1.2;
-  margin-bottom: 40px;
-  letter-spacing: .08em;
   text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.flex-works {
+  padding: 1em;
+  background: rgb(225,243,255);
+}
+
+.flex-about {
+  padding: 1em;
 }
 
 
-.about-title {
-  font-size: 30px;
-  font-weight: bold;
-  color: dimgray;
-  line-height: 1.2;
-  margin-bottom: 40px;
-  letter-spacing: .08em;
-  text-align: center;
+.flex-skill {
+  padding: 1em;
+  background: rgb(225,243,255);
 }
 
 
-.contact-title {
-  font-size: 30px;
-  font-weight: bold;
-  color: dimgray;
-  line-height: 1.2;
-  margin-bottom: 40px;
-  letter-spacing: .08em;
-  text-align: center;
+.flex-contact {
+  padding: 1em;
 }
 
 
