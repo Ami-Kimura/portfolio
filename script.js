@@ -13,91 +13,37 @@
 function ShowAndHide(win) {
   if (win < 769) {
     $(".navButton").show();
-    $("#nav-menu").hide();
+    $(".nav-menu").hide();
   } else {
     $(".navButton").hide();
-    $("#nav-menu").show();
+    $(".nav-menu").show();
   }
 }
 
 
-//Smooth Scrool
+// Smooth Scrool
 
-$(function() {
+$(function(){
 
-  $('a[href^="#WORKS"]').click(function() {
+   $('a[href^="#"]').click(function() {
 
-    // 初期設定：移動時間(ms)と頭出し位置
-    var speed = 500;
-    var offset = -0;
+      // 初期設定：移動時間(ms)と頭出し位置
+      var speed = 800;
+      var offset = -0;
 
-    // アンカーを取得
-    var anchor = $(this).attr("href");
+      // アンカーを取得
+      var anchor = $(this).attr("href");
 
-    // ターゲットの位置を取得
-    var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
-    var position = target.offset().top + offset;
+      // ターゲットの位置を取得
+      var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
+      var position = target.offset().top + offset;
 
-    // スクロール（アニメーション）
-    $('body,html').animate({
-      scrollTop: position
-    }, speed, 'swing');
+      // スクロール（アニメーション）
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
 
-    return false;
+      return false;
 
-  });
-
-});
-
-$(function() {
-
-  $('a[href^="#ABOUT"]').click(function() {
-
-    // 初期設定：移動時間(ms)と頭出し位置
-    var speed = 500;
-    var offset = -0;
-
-    // アンカーを取得
-    var anchor = $(this).attr("href");
-
-    // ターゲットの位置を取得
-    var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
-    var position = target.offset().top + offset;
-
-    // スクロール（アニメーション）
-    $('body,html').animate({
-      scrollTop: position
-    }, speed, 'swing');
-
-    return false;
-
-  });
-
-});
-
-$(function() {
-
-  $('a[href^="#CONTACT"]').click(function() {
-
-    // 初期設定：移動時間(ms)と頭出し位置
-    var speed = 500;
-    var offset = -0;
-
-    // アンカーを取得
-    var anchor = $(this).attr("href");
-
-    // ターゲットの位置を取得
-    var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
-    var position = target.offset().top + offset;
-
-    // スクロール（アニメーション）
-    $('body,html').animate({
-      scrollTop: position
-    }, speed, 'swing');
-
-    return false;
-
-  });
+   });
 
 });
 
@@ -114,7 +60,7 @@ $(function() {
 
   // メニューボタンクリック時のトグル動作
   $(".navButton").click(function() {
-    $("#nav-menu").slideToggle();
+    $(".nav-menu").slideToggle();
   });
 
 });
