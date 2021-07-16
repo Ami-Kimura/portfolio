@@ -89,23 +89,23 @@ h1 {
 }
 
 .flex-works {
-  padding: 1em;
+  padding: 20px 50px 30px;
   background: rgb(225,243,255);
 }
 
 .flex-about {
-  padding: 1em;
+  padding: 20px 50px 30px;
 }
 
 
 .flex-skill {
-  padding: 1em;
+  padding: 20px 50px 30px;
   background: rgb(225,243,255);
 }
 
 
 .flex-contact {
-  padding: 1em;
+  padding: 20px 50px 30px;
 }
 
 
