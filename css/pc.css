@@ -36,7 +36,7 @@ header h2 {
 
 nav {
   position: absolute;
-  top: 2.7rem;
+  top: 1.8rem;
   right: 1rem;
 }
   nav ul{
@@ -50,3 +50,17 @@ nav {
   nav ul li a {
     color: white;
   }
+
+
+.works-images {
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+
+img.margin01 {
+  margin-right:50px;
+}
+
+img.margin02 {
+  margin-right:50px;
+}
