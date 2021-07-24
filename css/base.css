@@ -60,7 +60,7 @@ header {
   font-size: 60px;
   font-weight: bold;
   color: dimgray;
-  line-height: 1.2;
+  line-height: 2rem;
   margin-bottom: 5px;
   letter-spacing: .1em;
 }
@@ -69,7 +69,6 @@ header {
   font-size: 20px;
   font-weight: bold;
   color: gray;
-  line-height: 1;
   margin-bottom: 40px;
   letter-spacing: .08em;
 }
