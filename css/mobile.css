@@ -1,18 +1,3 @@
-/*-----------------------------------------------------------------------
-
-まだ未完成なのでそのままコピーすると欠陥がでます
-  
-欠陥だらけです
-  
-ご注意下さい
-  
-by Ami Kimura
-
------------------------------------------------------------------------*/
-
-
-
-
 /*-------------------------------
           mobile.css
 --------------------------------*/
@@ -26,6 +11,7 @@ header h2 {
   left: 1rem;
   color: white;
   font-size: 1rem;
+  letter-spacing: .08em;
 }
 
 nav {
@@ -46,6 +32,7 @@ nav ul li {
 nav ul li a {
   color: white;
   font-size: 0.7rem;
+  letter-spacing: .08em;
 }
 
 .works-images {
@@ -59,4 +46,14 @@ img.margin01 {
 
 img.margin02 {
   margin-bottom: 50px;
+}
+
+.skill-container01 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.skill-container02 {
+  margin-top: 2rem;
+  text-align: center;
 }
