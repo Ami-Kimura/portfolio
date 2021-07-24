@@ -21,25 +21,13 @@ body {
   margin: auto;
 }
 
-/*-----------------------------------------------------------------------
-
-まだ未完成なのでそのままコピーすると欠陥がでます
-  
-欠陥だらけです
-  
-ご注意下さい
-  
-by Ami Kimura
-
------------------------------------------------------------------------*/
-
 header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(125,186,229,.8);
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  background-color: rgba(125, 186, 229, .8);
+  box-shadow: 0 4px 0.3125rem rgba(0, 0, 0, .3);
   z-index: 5;
 }
 
@@ -75,44 +63,159 @@ header {
   letter-spacing: .08em;
 }
 
-
 .flex-container {
   display: flex;
   flex-direction: column;
 }
 
 h1 {
-  font-size:180%;
+  font-size: 180%;
   color: dimgray;
   text-align: center;
-  margin: auto;
+  margin-top: 50px;
   padding: auto;
+  letter-spacing: .1em;
 }
 
+/*--------------------------------
+              WORKS
+---------------------------------*/
 .flex-works {
-  padding: 20px 50px 30px;
-  background: rgb(225,243,255);
+  padding: 20px 50px 50px 50px;
+  background: rgb(225, 243, 255);
 }
 
 .flex-about {
-  padding: 20px 50px 30px;
+  padding: 20px 50px 50px 50px;
 }
-
 
 .flex-skill {
-  padding: 20px 50px 30px;
-  background: rgb(225,243,255);
+  padding: 20px 50px 50px 50px;
+  background: rgb(225, 243, 255);
 }
-
 
 .flex-contact {
-  padding: 20px 50px 30px;
+  padding: 20px 50px 50px 50px;
 }
 
+/*--------------------------------
+              ABOUT
+---------------------------------*/
+.profile-image {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.name {
+  color: #4b4b4b;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.introduce {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: dimgray;
+}
+
+/*--------------------------------
+              SKILL
+---------------------------------*/
+.skill-container01 {
+  color: dimgray;
+}
+
+.skill-container02 {
+  color: dimgray;
+}
+
+p.HTML {
+  margin-bottom: 0.5em;
+}
+
+p.CSS {
+  margin-bottom: 0.5em;
+}
+
+p.JavaScript {
+  margin-bottom: 0.5em;
+}
+
+p.jQuery {
+  margin-bottom: 0.5em;
+}
+
+p.Photoshop {
+  margin-bottom: 0.5em;
+}
+
+p.Illustrator {
+  margin-bottom: 0.5em;
+}
+
+p.Word {
+  margin-bottom: 0.5em;
+}
+
+p.Excel {
+  margin-bottom: 0.5em;
+}
+
+/*--------------------------------
+              CONTACT
+---------------------------------*/
+.mail {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.sns-container {
+  text-align: center;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.fa-twitter {
+  color: #00acee;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.fa-instagram {
+  color: #CF2E92;
+  font-size: 3rem;
+}
+
+#page-top {
+  width: 100px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+#page-top i {
+  font-size: 40px;
+  color: rgb(125, 186, 229);
+}
+
+#page-top p {
+  font-size: 15px;
+  color: rgb(125, 186, 229);
+}
 
 footer {
   padding: 1.5rem;
   text-align: center;
   background-color: #9bcaeb;
   color: white;
+  letter-spacing: .2em;
 }
