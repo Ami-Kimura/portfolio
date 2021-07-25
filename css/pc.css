@@ -48,16 +48,9 @@ img.margin02 {
   margin-right: 50px;
 }
 
-.skill-container01 {
-  position: relative;
-  height: 5rem;
-  left: 25rem;
-  margin-top: 3rem;
-}
 
-.skill-container02 {
-  position: relative;
-  top: -7.9rem;
-  right: -48rem;
-  margin-top: 3rem;
+.skill-container {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
 }
