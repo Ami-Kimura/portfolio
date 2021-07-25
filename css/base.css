@@ -80,27 +80,20 @@ h1 {
 /*--------------------------------
               WORKS
 ---------------------------------*/
+
 .flex-works {
   padding: 20px 50px 50px 50px;
   background: rgb(225, 243, 255);
 }
 
+/*--------------------------------
+              ABOUT
+---------------------------------*/
+
 .flex-about {
   padding: 20px 50px 50px 50px;
 }
 
-.flex-skill {
-  padding: 20px 50px 50px 50px;
-  background: rgb(225, 243, 255);
-}
-
-.flex-contact {
-  padding: 20px 50px 50px 50px;
-}
-
-/*--------------------------------
-              ABOUT
----------------------------------*/
 .profile-image {
   text-align: center;
   margin-top: 2rem;
@@ -116,19 +109,27 @@ h1 {
 .introduce {
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin: 4rem;
   color: dimgray;
 }
 
 /*--------------------------------
               SKILL
 ---------------------------------*/
+
+.flex-skill {
+  padding: 20px 50px 50px 50px;
+  background: rgb(225, 243, 255);
+}
+
 .skill-container01 {
   color: dimgray;
+  margin: 5rem;
 }
 
 .skill-container02 {
   color: dimgray;
+  margin: 5rem;
 }
 
 p.HTML {
@@ -166,6 +167,11 @@ p.Excel {
 /*--------------------------------
               CONTACT
 ---------------------------------*/
+
+.flex-contact {
+  padding: 20px 50px 50px 50px;
+}
+
 .mail {
   text-align: center;
   margin-top: 3rem;
@@ -211,6 +217,8 @@ p.Excel {
   font-size: 15px;
   color: rgb(125, 186, 229);
 }
+
+
 
 footer {
   padding: 1.5rem;
